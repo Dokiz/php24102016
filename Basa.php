@@ -8,11 +8,10 @@
 
 class Basa {
     public $a,$b,$c;
-    public function __construct($set_a,$set_b){
-        $this->a = $set_a;
-        $this->b = $set_b;
-    }
+
     public function sum(){
         $this->c = $this->a+$this->b;
     }
 }
+
+?>

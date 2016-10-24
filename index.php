@@ -5,13 +5,13 @@
  * Date: 24.10.2016
  * Time: 15:42
  */
-/* require_once "Pro_Basa.php"; */
-require_once "Basa.php";
+require_once "PBasa.php";
+/*require_once "Basa.php";
     $obj = new Basa(2,3);
     $obj->sum();
-    echo $obj->c;
+    echo $obj->c;*/
 
-    $obj2 = new Pro_Basa(2,3);
-    $aaa = $obj2->umo();
-     echo $aaa;
+    $obj2 = new PBasa();
+    $obj2-> umno();
+     echo $obj2->res;
 ?>
